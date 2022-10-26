@@ -1,0 +1,125 @@
+.all-jobs-container {
+  background-color: #000000;
+  background-size: cover;
+  width: 100%;
+  padding-top: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.all-jobs-sub-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 400px;
+  height: 200px;
+}
+.hr-line {
+  border: #cbd5e1 solid 1px;
+  width: 100%;
+  margin-top: 20px;
+}
+.ul-employee {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.employee-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.search-input-container {
+  border: #cbd5e1 solid 1px;
+  width: 500px;
+  background-color: transparent;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  outline: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.search-input {
+  border-width: 0px;
+  width: 500px;
+  background-color: transparent;
+  height: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 8px;
+  outline: none;
+}
+.btn-search {
+  background-color: #202020;
+  width: 50px;
+  cursor: pointer;
+}
+.search-icon {
+  color: #f1f5f9;
+}
+.ul-jobs-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding-left: 0px;
+  max-width: 65vw;
+}
+.loader-container {
+  align-self: center;
+}
+.no-jobs-heading {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Roboto';
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-para {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-size: 18px;
+}
+.btn {
+  background-color: #4f46e5;
+  border-radius: 7px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-width: 0px;
+  outline: none;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-failure {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

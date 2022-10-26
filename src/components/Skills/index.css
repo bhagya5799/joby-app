@@ -1,0 +1,17 @@
+.li-skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 260px;
+  margin-bottom: 30px;
+}
+.skill-image {
+  width: 70px;
+  height: 70px;
+}
+.skill-para {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 10px;
+}

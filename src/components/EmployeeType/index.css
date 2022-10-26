@@ -1,0 +1,14 @@
+.label-para {
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.check-box {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.li-salary {
+  margin-bottom: 7px;
+}
